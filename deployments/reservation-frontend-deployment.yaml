@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reservation-frontend-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: web
+  template:
+      metadata:
+        labels:
+          component: web
+      spec:
+          containers:
+            - name: web
+              image: milantimotijevic89/reservation-frontend:0.8
+              ports:
+                - containerPort: 3001

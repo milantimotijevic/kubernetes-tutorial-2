@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: reservation-frontend-pod
+  labels:
+    component: web
+spec:
+  containers:
+    - name: reservation-frontend
+      image: milantimotijevic89/reservation-frontend:0.8
+      ports:
+        - containerPort: 3001
