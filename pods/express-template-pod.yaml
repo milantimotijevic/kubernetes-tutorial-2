@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: express-template-pod
+  labels:
+    component: api
+spec:
+  containers:
+    - name: express-template
+      image: milantimotijevic89/express-template:0.8
+      ports:
+        - containerPort: 3000
+      env:
+        - name: DB_USER
+          value: postgres
+        - name: DB_PASSWORD
+          value: postgres
+        - name: DB_HOST
+          value: postgres-cluster-ip-service
+        - name: DB_PORT
+          value: '5432'
+        - name: DB_NAME
+          value: local_db
