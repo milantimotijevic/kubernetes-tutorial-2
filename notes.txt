@@ -1,0 +1,4 @@
+before creating a persistent volume, make sure hostPath exists in minikube
+
+minikube ssh
+sudo mkdir /mnt/data
