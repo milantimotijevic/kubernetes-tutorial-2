@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19996b61-585a-4c2e-842f-1f86238967d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/reservation-frontend-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/reservation-frontend-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <workItem from="1605694899971" duration="4377000" />
       <workItem from="1606125421721" duration="5990000" />
       <workItem from="1606217302768" duration="4608000" />
-      <workItem from="1606302175652" duration="3007000" />
+      <workItem from="1606302175652" duration="3343000" />
     </task>
     <servers />
   </component>
